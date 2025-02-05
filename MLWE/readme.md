@@ -53,6 +53,11 @@ points = visualizer.generate_lattice_points(100)
 noisy_points = visualizer.add_gaussian_noise(points)
 visualizer.visualize_2d(points, noisy_points)
 ```
+<img width="1280" alt="Screenshot 2025-02-05 at 2 38 40 PM" src="https://github.com/user-attachments/assets/67914be1-0800-4756-90b4-3fcd98d4d173" />
+
+![Figure_1](https://github.com/user-attachments/assets/aae4cd2d-2116-4913-847a-d44c9b98fcaa)
+
+
 
 ### 進階功能
 
@@ -64,6 +69,10 @@ problem = MLWEProblem(dimension=2, q=97, sigma=2.0)
 instance = problem.generate_instance()
 problem.visualize_instance(instance)
 ```
+<img width="1038" alt="Screenshot 2025-02-05 at 2 38 13 PM" src="https://github.com/user-attachments/assets/fe4f718b-7d6d-450e-bf97-9631786fdf3b" />
+
+
+![Figure_2](https://github.com/user-attachments/assets/1482993c-3f7f-4f0e-9291-c20d821c7c01)
 
 ### 搜索空間複雜度展示
 
