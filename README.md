@@ -123,3 +123,80 @@ MLWE 是 **Kyber 和 Dilithium 的數學基礎**，它是一種 **基於格（La
 - 📖 [Dilithium 研究論文](https://eprint.iacr.org/2017/633)
 
 🔹 **未來的密碼技術由你來掌握！加油！🚀**
+
+---
+
+## 🚀 8. 實作專案建議
+
+### 📐 MLWE 視覺化模擬器
+
+透過視覺化方式理解 MLWE 的核心概念。
+
+**主要功能：**
+
+- MLWE 問題的基本原理實作
+- 格子結構視覺化
+- 噪聲（誤差）模擬
+- 量子計算難度展示
+
+**tech stack：**
+
+- Python + NumPy
+- Matplotlib 視覺化
+- Jupyter Notebook
+
+### 💬 Kyber 安全聊天應用
+
+實作基於 Kyber 的加密通訊系統。
+
+**主要功能：**
+
+- Kyber 密鑰生成、加密和解密
+- P2P 即時聊天
+- 密鑰交換過程展示
+- 性能監控
+
+**tech stack：**
+
+- Go/Rust 後端
+- WebSocket 通訊
+- React/Vue.js 前端
+- Docker 容器化
+
+### 📝 Dilithium 區塊鏈文件簽名系統
+
+建立基於 Dilithium 的數位簽章應用。
+
+**主要功能：**
+
+- Dilithium 簽名生成和驗證
+- 區塊鏈結構實作
+- 文件管理系統
+- 時間戳記證明
+
+**tech stack：**
+
+- Java/Kotlin
+- Spring Boot
+- MongoDB
+- Web3.js
+- IPFS
+
+### 🎯 學習路徑建議
+
+1. 從 MLWE 視覺化專案開始，打好理論基礎
+2. 進入 Kyber 專案，實作密鑰交換
+3. 最後挑戰 Dilithium 專案，完成數位簽章系統
+
+### 📚 實用開發資源
+
+- [PQClean 程式庫](https://github.com/PQClean/PQClean)
+- [Liboqs](https://github.com/open-quantum-safe/liboqs)
+- NIST PQC 參考實作
+
+### ⚠️ 注意事項
+
+- 這些專案主要用於學習，不建議直接用於生產環境
+- 建議採用漸進式開發
+- 重視測試和文檔
+- 關注程式效能
